@@ -6,7 +6,7 @@
 .navbar{
   height: 60px;
   width: 100%;
-  background-color: rgb(15, 15, 39);
+  background-color: rgb(18, 18, 44);
   color: white;
 }
 .navbar ul{
@@ -36,13 +36,19 @@
 
 }
 .self{
-  height: 50vmin;
-  background-color: rgb(26, 26, 52);
+  height: 80vmin;
+  background-color: #1e1e43;
   color: rgba(245, 245, 245, 0.797);
   display: flex;
-  justify-content: space-between;
+  gap: 30vmin;
   padding: 20vmin;
   
+}
+.self img{
+  height: 80vmin;
+  width: 45vmin;
+
+ 
 }
 .self2{
   width: 78vmin;
@@ -70,22 +76,24 @@
 }
 .self h1{
   font-size: 8vmin;
+  color: rgb(255, 255, 255);
 }
 
 .self p{
   font-size: 5vmin;
+  
 }
 .about{
-  height: 60vmin;
-  background-color: rgb(26, 26, 52);
+  height: 90vmin;
+  background-color: #1e1e43;
   display: flex;
   color: azure;
   padding: 10px;
   gap: 5rem;
 }
 .about img{
-  height: 40vmin;
-  width: 40vmin;
+  height: 70vmin;
+  width: 55vmin;
   margin-left: 30vmin;
   padding: 10px;
 }
@@ -99,22 +107,24 @@
 }
 .about-me p {
   font-size:22px;
-  margin: 20px;
-  
+  margin: 20px;  
 }
 .about-me h1{
   font-size:3rem;
-  color: rgb(248, 248, 241);
+  
+  color: whitesmoke;
 } 
 .work{
-  height: 100%;
-  background-color: rgb(26, 26, 52);
+  height: 95vmin;
+  background-color: #1e1e43;
   color: aliceblue;
+
 
 }
 .work-p{
   font-size: 50px;
   font-weight: bold;
+  color: whitesmoke;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .workk{
@@ -144,36 +154,88 @@ button{
   color: antiquewhite;
   font-size: 1rem;
   border-radius: 5px; 
-  border:none
+  border:none;
+  margin-top: 20px;
 }
 .btn{
   margin-left: 98vmin;
   justify-content: center;
-  
+ 
 }
 button:hover{
   color: rgba(0, 0, 0, 0.897);
   font-weight: bolder;
   
 }
+.btn a {
+  text-decoration: none;
+  color: whitesmoke;
+}
 .hidden{
   visibility:hidden;
 }
 .footer{
-  height: 30vmin;
-  background-color: rgb(26, 26, 52);
+  height: 60vmin;
+  background-color: rgb(18, 18, 44);
 
+}
+.contact{
+  margin-left: 60px; 
+  padding: 60px;
   
 }
-.details{
-  color: antiquewhite;
-  height: 5vmin;
-  width: 30vmin;
+.layer a{
+  size: 50px;
+  margin-top: 220px;
+}
+.cont-p{
+  font-size: 50px;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: whitesmoke;
+  padding: 20px;
+  margin-left: 40px;
+
+}
+.text{
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(245, 245, 245);
+  padding: 15px;
+  margin-left: 100px; 
   
-  background-color: rgb(94, 86, 101);
-  border-radius: 5px;
-  display: flex;
- 
+}
+.color{
+  color: red;
+}
+.color1{
+  color: rgb(30, 212, 30);
+}
+
+.text1{
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(245, 245, 245);
+  padding: 10px;
+  margin-left: 80px;  
+  margin-top: 30px;
+  
+}
+.icons{
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: whitesmoke;
+  padding: 10px;
+  margin-left: 80px; 
+  margin-top: 30px;
+}
+.icons a{
+  text-decoration: none;
+  background: none;
+  gap: 10rem;
+  color: rgba(197, 196, 196, 0.881);
+  margin: 8px;
+
 }
 .details a{
   text-decoration: none;
@@ -187,8 +249,8 @@ button:hover{
   width: 35vh;
   background: linear-gradient(to bottom, #33ccff 0%, #ffffff 78%);
   border-radius: 10px;
-  top: 180%;
-  bottom: 0%;
+  top: 240%;
+  bottom: 280%;
   position: absolute;
   opacity: 90%;
   overflow: hidden;
